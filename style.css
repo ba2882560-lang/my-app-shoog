@@ -1,8 +1,8 @@
 body{
 margin:0;
 font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", Arial;
-background:linear-gradient(135deg,#ffffff,#000407);
-color:#2c374a;
+background:linear-gradient(135deg,#f9f9fa,#dfe2e5);
+color:#161616;
 }
 
 .screen{
@@ -19,7 +19,7 @@ gap:15px;
 }
 
 .card{
-background:rgba(255,255,255,0.6);
+background:rgba(17, 17, 17, 0.6);
 backdrop-filter:blur(12px);
 padding:18px;
 border-radius:20px;
@@ -72,7 +72,7 @@ transform:scale(0.96);
 
 /* أزرار ثانوية */
 .secondary{
-background:#e2e8f0;
+background:#262627;
 color:#1e293b;
 box-shadow:none;
 }
@@ -80,7 +80,7 @@ box-shadow:none;
 .bar{
 width:220px;
 height:10px;
-background:#e2e8f0;
+background:#1c1e20;
 border-radius:20px;
 overflow:hidden;
 margin-top:10px;
@@ -96,8 +96,8 @@ transition:0.4s;
 h2{
 font-weight:800;
 letter-spacing:0.5px;
+color:#0f0f0f;  
 }
-
 #aiTip{
 font-size:14px;
 opacity:0.85;
